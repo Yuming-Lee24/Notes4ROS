@@ -24,7 +24,8 @@ A module for a function. Consists of several nodes. Each nodes cooperate togethe
 	└── package.xml			# Package metadata & dependencies
 
 #### Commands
-`catkin_create_pkg <pkg_name> [deps]` Create a new package
+`catkin_create_pkg <pkg_name> [deps]` Create a new package  
+
 `rospack list` List all available packages
 `rospack find <pkg_name>` Show path to a specific package
 `roscd <pkg_name>` Quickly change directory to a package
